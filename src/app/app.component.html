@@ -20,7 +20,7 @@
         <mat-form-field>
             <textarea matInput placeholder="Text" [(ngModel)]="note.text" name="text"></textarea>
         </mat-form-field> 
-        <button (click)="addNote" mat-button color="primary">Done</button>
+        <button (click)="addNote(note)" mat-button color="primary">Done</button>
     </mat-expansion-panel>
 </mat-accordion>
 </div>
